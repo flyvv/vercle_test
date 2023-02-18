@@ -59,7 +59,7 @@ export default function Page() {
 							</Button>
 						</Form.Item>
 					</Form>
-					<Button onClick={() => navigate('/play')} type="primary">
+					<Button onClick={() => navigate('/play')}>
 						先去玩把小游戏
 					</Button>
 				</Card>
