@@ -56,4 +56,11 @@ export default [
 		hideInMenu: true,
 		layout: false,
 	},
+	{
+		path: '/play',
+		name: '小游戏',
+		component: './play/index',
+		hideInMenu: true,
+		layout: false,
+	},
 ]

@@ -2,7 +2,7 @@ import { defineConfig } from '@umijs/max'
 import routes from './routes'
 
 export default defineConfig({
-	npmClient: 'npm',
+	npmClient: 'yarn',
 	routes,
 	antd: {},
 	tailwindcss: {},

@@ -5,7 +5,7 @@ import React from 'react';
 
 export async function getRoutes() {
   return {
-    routes: {"1":{"path":"/","redirect":"/home","parentId":"ant-design-pro-layout","id":"1"},"2":{"icon":"HomeOutlined","path":"/home","name":"首页","parentId":"ant-design-pro-layout","id":"2"},"3":{"icon":"ProfileOutlined","path":"/profile","name":"个人中心","parentId":"ant-design-pro-layout","id":"3"},"4":{"icon":"UserOutlined","path":"/user","name":"用户管理","parentId":"ant-design-pro-layout","id":"4"},"5":{"icon":"BorderBottomOutlined","name":"添加用户","path":"/user/add","access":"adminCan","parentId":"4","id":"5"},"6":{"icon":"ArrowLeftOutlined","name":"用户列表","path":"/user/list","access":"memberCan","parentId":"4","id":"6"},"7":{"icon":"BorderBottomOutlined","name":"用户详情","path":"/user/detail/:id","hideInMenu":true,"parentId":"4","id":"7"},"8":{"path":"/signup","name":"注册","hideInMenu":true,"layout":false,"id":"8"},"9":{"path":"/signin","name":"登录","hideInMenu":true,"layout":false,"id":"9"},"ant-design-pro-layout":{"id":"ant-design-pro-layout","path":"/","isLayout":true}},
+    routes: {"1":{"path":"/","redirect":"/home","parentId":"ant-design-pro-layout","id":"1"},"2":{"icon":"HomeOutlined","path":"/home","name":"首页","parentId":"ant-design-pro-layout","id":"2"},"3":{"icon":"ProfileOutlined","path":"/profile","name":"个人中心","parentId":"ant-design-pro-layout","id":"3"},"4":{"icon":"UserOutlined","path":"/user","name":"用户管理","parentId":"ant-design-pro-layout","id":"4"},"5":{"icon":"BorderBottomOutlined","name":"添加用户","path":"/user/add","access":"adminCan","parentId":"4","id":"5"},"6":{"icon":"ArrowLeftOutlined","name":"用户列表","path":"/user/list","access":"memberCan","parentId":"4","id":"6"},"7":{"icon":"BorderBottomOutlined","name":"用户详情","path":"/user/detail/:id","hideInMenu":true,"parentId":"4","id":"7"},"8":{"path":"/signup","name":"注册","hideInMenu":true,"layout":false,"id":"8"},"9":{"path":"/signin","name":"登录","hideInMenu":true,"layout":false,"id":"9"},"10":{"path":"/play","name":"小游戏","hideInMenu":true,"layout":false,"id":"10"},"ant-design-pro-layout":{"id":"ant-design-pro-layout","path":"/","isLayout":true}},
     routeComponents: {
 '1': React.lazy(() => import( './EmptyRoute')),
 '2': React.lazy(() => import(/* webpackChunkName: "p__home__index" */'@/pages/home/index.tsx')),
@@ -16,6 +16,7 @@ export async function getRoutes() {
 '7': React.lazy(() => import(/* webpackChunkName: "p__user__detail__index" */'@/pages/user/detail/index.tsx')),
 '8': React.lazy(() => import(/* webpackChunkName: "p__signup__index" */'@/pages/signup/index.tsx')),
 '9': React.lazy(() => import(/* webpackChunkName: "p__signin__index" */'@/pages/signin/index.tsx')),
+'10': React.lazy(() => import(/* webpackChunkName: "p__play__index" */'@/pages/play/index.tsx')),
 'ant-design-pro-layout': React.lazy(() => import(/* webpackChunkName: "umi__plugin-layout__Layout" */'/Users/yanghui/Desktop/未命名文件夹/vercle_test/src/.umi/plugin-layout/Layout.tsx')),
 },
   };
